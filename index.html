@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <!-- nav  -->
+  <header>
+    <div class="nav-container">
+      <nav>
+        <!-- <a href=""> -->
+          <div class="logo">
+            <img src="assets/Logo.png" alt="Logo">
+            <p>Tetris <span class="p">v1.0</span></p>
+          </div>
+          <div class="nav-menu">
+            <a href="Game/game.rar" download="game.rar" class="active">Download</a>
+            <a href="#game">pygame Library</a>
+            <a href="#download">How To Download It</a>
+            <a href="#About">About Tetris</a>
+            <a href="#control">Control</a>
+          </div>
+          <div class="nav-btn">
+            <button class="btn-menu" onclick="active()">
+              <div class="line"></div>
+              <div class="line"></div>
+            </button>
+          </div>
+        <!-- </a> -->
+      </nav>
+    </div>
+   </header>
+  <!-- end nav  -->
+
+  <!-- hero page -->
+   <div class="hero" id="hero">
+    <div class="container">
+      <div class="hero-wrap">
+
+        <div class="hero-text">
+           <h1>WELCOME TO <span class="t">T</span><span class="e">E</span><span class="T">T</span><span class="r">R</span><span class="I">I</span><span class="S">S</span> GAME</h1>
+           <p>The addictive puzzle game that started it all! By embracing our universal desire to create order out of chaos</p>
+
+           <div class="btn">
+            <a href="Game/game.rar" download="game.rar" >DOWNLOAD</a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+           <img src="assets/hero.png" alt="Tetris Game">
+        </div>
+
+      </div>
+
+      
+    </div>
+   </div>
+  <!-- end hero page -->
+
+  <!-- code py -->
+   <div class="game" id="game">
+    <h1>THIS GAME WAS CREATED USING PYTHON</h1>
+    <div class="container">
+      <div class="game-compt">
+
+        <div class="game-text">
+          <p>
+            We use the PyGame library to develop this game, which is a powerful tool for creating games in Python. PyGame provides a range of functionalities, including graphics rendering, sound management, and event handling, making it an excellent choice for game development. You can install PyGame for free, as it is an open-source library. This means that not only is it accessible without cost, but you also have the benefit of a community-driven project with ongoing updates and support
+          </p>
+        </div>
+
+
+         <div class="img-compt">
+          <center>
+            <img src="assets/code.png" alt="code">
+          </center>
+         </div>
+
+
+         <div class="game-text-2">
+          <p>To use the PyGame library, first install it using pip install pygame. Then, start by initializing PyGame <mark>pygame.event.get(),</mark>. You can create game windows using <mark>pygame.display.set_mode()</mark>, handle user input with <mark>pygame.event.get()</mark>, and render graphics using drawing functions like <mark>pygame.draw.rect()</mark> or <mark>pygame.draw.circle()</mark>. For managing game logic and updates, use the game loop to continuously check events, update the game state, and refresh the display with <mark>pygame.display.flip()</mark></p>
+         </div>
+         
+      </div>
+    </div>
+   </div>
+  <!-- end code py -->
+
+  <!-- how to download -->
+  <div class="download" id="download">
+    <h1>HOW TO DOWNLOAD IT?</h1>
+    <div class="container">
+       <div class="download-wrap">
+
+        <div class="download-text">
+          <ul>
+            <li>
+              The first step, please download it on the website here, click the button text "Download"
+            </li>
+            <li>
+              After finishing downloading, look for the file "<span class="down">game.rar</span>"
+            </li>
+            <li> 
+              After finding the "<span class="down">game.rar</span>" file then extract the file until there is a "<span class="down">game</span>" folder
+            </li>
+            <li>
+              After finding the "<span class="down">game</span>" folder, just open the file and look for the "Tetris Game.exe" file then double click
+            </li>
+            <li>
+              enjoy the game
+            </li>
+          </ul>
+        </div>
+
+        <div class="img-download">
+          <img src="assets/tetris-preview.png" alt="tetris">
+        </div>
+
+
+       </div>
+    </div>
+  </div>
+
+  <!-- end how to download -->
+
+
+
+   <!-- about -->
+    <div class="about" id="About">
+        <h1 class="about-title">ABOUT TETRIS</h1>
+      <div class="container">
+        <div class="about-wrap">
+
+           <div class="about-img">
+            <img src="assets/about-img.png" alt="">
+           </div>
+
+           <div class="about-text">
+            <p>Tetris is the addictive puzzle game that started it all, embracing our universal desire to create order out of chaos. The game Tetris was created by Alexei Pajitnov in 1984—a product of Alexei's computer programming experience and his love of puzzles. In the following decades, Tetris became one of the most successful and recognizable video games, appearing on almost every gaming platform available. Click DOWNLOAD to play one of the most popular puzzle games in the world now!</p>
+           </div>
+
+        </div>
+      </div>
+    </div>
+   <!-- end about -->
+
+   <!-- control -->
+    <div class="control" id="control">
+      <h1 class="control-title">CONTROL</h1>
+      <div class="container">
+        <div class="control-compt">
+
+         <div class="control-img">
+           <img src="assets/control-img.png" alt="">
+          </div>
+          
+          <div class="ul-control">
+            <h1>KEYBOARD SETTINGS</h1>
+           <ul class="control-ul">
+            <li>Up arrow to rotate the object</li>
+            <li>right arrow to move right</li>
+            <li>down arrow to fall down</li>
+            <li>left arrow to move left</li>
+           </ul>
+         </div>
+
+        </div>
+      </div>
+    </div>
+   <!-- end control -->
+<!-- footer -->
+ <footer>
+  <div class="footer-compt">
+    <h5>Copyright © 2024 Tetris Games . Nice a Good Day😊</h5>
+  </div>
+ </footer>
+<!-- end footer -->
+  <!-- js -->
+    <script src="main.js"></script>
+  </body>
+</html>
